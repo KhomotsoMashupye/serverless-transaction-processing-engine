@@ -1,0 +1,14 @@
+# Ignore sensitive Terraform variable files
+*.tfvars
+*.tfvars.json
+
+# Ignore local terraform state and backups
+.terraform/
+*.tfstate
+*.tfstate.*
+
+# Ignore the generated Lambda zip
+lambda_function.zip
+
+# Ignore Node.js dependencies (too bulky for Git)
+node_modules/
